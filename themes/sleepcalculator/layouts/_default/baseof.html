@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode}}">
+
+<head>
+    {{- block "head" . -}}
+    <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    {{- partial "head" . -}}
+    {{- end -}}
+    {{- block "head-scripts" . }}{{- end }}
+</head>
+
+<body class="text-base font-sans leading-relaxed text-grey-700">
+    <div id="app" class="overflow-x-hidden">
+        {{- block "header" . }}{{- partial "components/header.html" . -}} {{ end }}
+        <div id="content">
+            {{- block "main" . }}{{- end }}
+        </div>
+        {{- block "footer" . }}
+        {{- partial "components/footer.html" . -}}
+        {{ end }}
+    </div>
+    {{- partial "scripts.html" . -}}
+    {{- block "footer-scripts" . }}{{- end }}
+</body>
+
+</html>
