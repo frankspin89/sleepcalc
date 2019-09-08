@@ -4,6 +4,7 @@
 
 @import "tailwindcss/utilities";
 
+@import "tiny-slider.css";
 
 /*
  * Headings
@@ -15,4 +16,21 @@
  h4,
  h5 {
   @apply leading-tight;
+ }
+
+
+/*
+ * Slider styling
+ */
+
+ .tns-nav {
+     @apply flex items-center justify-center mt-4;
+ }
+
+ .tns-nav button {
+    @apply bg-blue-100 h-4 w-4 rounded-full mx-1;
+ }
+
+ .tns-nav button.tns-nav-active {
+     @apply bg-blue-200;
  }
