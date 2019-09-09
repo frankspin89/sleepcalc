@@ -1,3 +1,8 @@
+/*
+* Sliders
+*/
+
+
 var slider = tns({
     container: '.slider-slaaptekort',
     items: 1,
