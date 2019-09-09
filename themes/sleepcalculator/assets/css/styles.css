@@ -23,6 +23,8 @@
  * Slider styling
  */
 
+ /* purgecss start ignore */
+
  .tns-nav {
      @apply flex items-center justify-center mt-4;
  }
@@ -34,3 +36,5 @@
  .tns-nav button.tns-nav-active {
      @apply bg-blue-200;
  }
+
+ /* purgecss end ignore */
