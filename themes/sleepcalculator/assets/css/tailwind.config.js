@@ -12,6 +12,7 @@ module.exports = {
             maxHeight: {
                 ...maxHeight,
                 'logo-small': '2.5rem',
+                'logo-medium': '3.5rem',
           
             },
 
