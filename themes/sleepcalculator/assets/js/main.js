@@ -27,3 +27,18 @@ var slider = tns({
     loop: true,
     autoHeight: true
   });
+
+  var slider = tns({
+    container: '.slider-helpen',
+    items: 1,
+    slideBy: 'page',
+    autoplay: true,
+    controlsPosition: 'bottom',
+    controls: false,
+    nav: true,
+    navPosition: 'bottom',
+    autoplay: true,
+    autoplayButtonOutput: false,
+    loop: true,
+    autoHeight: true
+  });
