@@ -1,7 +1,7 @@
 <footer class="bg-white">
-    <div class="max-w-6xl mx-auto px-6 pt-16 pb-10 sm:flex">
-        <span class="uppercase font-bold text-indigo-800 tracking-wide mr-24 mb-8 inline-block">
-            Dorminum
+    <div class="max-w-6xl mx-auto px-6 pt-16 pb-10 sm:flex flex-wrap">
+        <span class="uppercase font-bold text-indigo-800 tracking-wide mr-4 mb-8 inline-block">
+            Floris Wouterson
         </span>
         <div class="sm:mx-4 flex-1">
             <p class="uppercase tracking-wide font-bold text-indigo-800 mb-2">Onze visie - It’s al about life energy!</p>
@@ -18,36 +18,37 @@
                         class="fab fa-twitter"></i></a>
             </nav>
             <div>
-                &copy; 2010 - 2020
+                        Foto Credits: <a href="https://www.instagram.com/sabine.vn/" target="_blank" class="text-blue-800">Sabine van Nistelrooij</a>
             </div>
+            
         </div>
         <div class="mx-4 flex-1 hidden md:block">
             <div class="bg-blue-100 rounded-lg p-8">
                 <span class="uppercase font-bold text-indigo-800 tracking-wide mr-24 mb-2 inline-block">
-                    Nieuwsbrief
+                    Wordt een SuperSlaper
                 </span>
-                <p class="mb-4">Morbi accumsan, turpis eget luctus congue, dui enim fermentum lectus, quis congue erat
-                    mauris eget ipsum. Praesent ullamcorper elementum.</p>
+                <p class="mb-4">Ben jij een high performer, ondernemer of atleet die goed wil slapen? Je slaapt tijdelijk wat minder. En je zoekt een slaapstrategie om je prestaties drastisch te verhogen? Dan zit je hier goed. </p>
                 <form action="" class="text-center ">
-                    <div class="flex flex-wrap mb-4 text-left -mx-2">
-                        <div class="w-1/2 px-2 mb-2">
+                    <div class="mb-4 text-left ">
+                        <div class="mb-2">
                             <label for="#"
                                 class="text-xs uppercase font-black text-blue-700 tracking-widest">Naam</label>
                             <input type="text" class="w-full bg-white h-10 border border-blue-200 px-4">
                         </div>
-                        <div class="w-1/2 px-2 mb-2">
+                        <div class="mb-2">
                             <label for="#"
                                 class="text-xs uppercase font-black text-blue-700 tracking-widest">E-mail</label>
                             <input type="email" class="w-full bg-white h-10 border border-blue-200 px-4">
                         </div>
 
                     </div>
-                    <button class="bg-blue-800 px-6 py-4 text-blue-100 font-bold rounded-full mx-auto mt-2 hover:bg-blue-500 hover:text-blue-800">Schrijf je
-                        nu in voor de nieuwsbrief</button>
+                    <button class="bg-blue-800 px-6 py-4 text-blue-100 font-bold rounded-full mx-auto mt-2 hover:bg-blue-500 hover:text-blue-800">Ik wil beter leren slapen</button>
                 </form>
             </div>
         </div>
+        
     </div>
+    {{ if .IsHome }}
     <div class="bg-white">
         <div class="max-w-6xl mx-auto px-6 pt-8 pb-10 sm:flex">
             <span class="uppercase font-bold text-indigo-800 tracking-wide mr-24">
@@ -176,6 +177,15 @@
                         target="_blank">https://www.vrt.be/vrtnws/nl/2019/08/05/belgen-blijven-bij-minst-flexibele-werknemers-van-europa-alleen/</a>
                 </li>
             </ol>
+        </div>
+    </div>
+    {{ end }}
+    <div class="bg-white">
+        <div class="max-w-6xl mx-auto px-6 pt-8 pb-10 md:flex justify-between">
+                © 2010 - 2020 - Floris Wouterson - BTW BE834135365
+                <nav>
+                        <a href="http://www.floriswouterson.com/algemene-voorwaarden/" class="text-blue-800">Algemene voorwaarden</a> - <a href="http://www.floriswouterson.com/disclaimer/" class="text-blue-800">Disclaimer</a> - <a href="http://www.floriswouterson.com/privacy-policy/" class="text-blue-800">Privacy</a> - <a href="http://www.floriswouterson.com/cookies/" class="text-blue-800">Cookie Beleid</a> - <a href="http://www.floriswouterson.com/contact/" class="text-blue-800">Contact</a>
+                </nav>
         </div>
     </div>
 </footer>
