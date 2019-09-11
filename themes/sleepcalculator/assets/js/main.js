@@ -15,7 +15,6 @@ var slider = tns({
     autoplay: true,
     autoplayButtonOutput: false,
     loop: true,
-    autoHeight: true
   });
 
   var slider = tns({
@@ -45,5 +44,4 @@ var slider = tns({
     autoplay: true,
     autoplayButtonOutput: false,
     loop: true,
-    autoHeight: true
   });
